@@ -12,7 +12,7 @@ Implementar una arquitectura batch distribuida basada en Hadoop utilizando Amazo
 
 Se utilizó la API de **Open-Meteo** para obtener datos históricos de precipitación en Medellín:
 
-- URL base: `https://archive-api.open-meteo.com/v1/archive`
+- URL base: `https://archive-api.open-meteo.com/v1/archive?latitude=6.25&longitude=-75.56&start_date=2024-01-01&end_date=2024-12-31&daily=precipitation_sum&timezone=America/Bogota`
 - Variables: `precipitation_sum`
 - Formato: JSON
 
