@@ -39,11 +39,13 @@ Se utilizó la API de **Open-Meteo** para obtener datos históricos de precipita
     ```bash
     python3 precipitacion_mensual.py hdfs:///user/admin/datosP3/datos.json \ 
     -r hadoop --output-dir hdfs:///user/admin/resultadosPorMes
+     ```
 
 4. **Descarga de resultados:**
 
     ```bash
     hdfs dfs -getmerge /user/admin/resultadosPorMes precipitacion_mensual.csv
+     ```
 
 5. **Visualización con API Flask:**
 
