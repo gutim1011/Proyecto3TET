@@ -64,11 +64,12 @@ Se utilizó la API de **Open-Meteo** para obtener datos históricos de precipita
     La API sirve los datos generados por MapReduce en formato JSON.
 
 ## Ejecutar API
-
-    ```bash
     pip3 install flask --user
     python3 api_flask.py
 
     La API estará disponible en:
     http://<IP_PUBLICA>:5000/precipitacion-mensual
+---
+## Video Sustentación
 
+   https://youtu.be/YmKcVz8jgRw
